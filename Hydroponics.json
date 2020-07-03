@@ -1,9 +1,9 @@
 {
-  "@id": "urn:matthijsvdveer:Hydroponics_3f:1",
+  "@id": "urn:matthijsvdveer:Hydroponics:1",
   "@type": "CapabilityModel",
   "implements": [
     {
-      "@id": "urn:matthijsvdveer:Hydroponics_3f:vgwrlpdr1:1",
+      "@id": "urn:matthijsvdveer:Hydroponics:vgwrlpdr1:1",
       "@type": "InterfaceInstance",
       "displayName": {
         "en": "Interface"
