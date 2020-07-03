@@ -1,0 +1,68 @@
+{
+  "@id": "urn:matthijsvdveer:Hydroponics_3f:1",
+  "@type": "CapabilityModel",
+  "implements": [
+    {
+      "@id": "urn:matthijsvdveer:Hydroponics_3f:vgwrlpdr1:1",
+      "@type": "InterfaceInstance",
+      "displayName": {
+        "en": "Interface"
+      },
+      "name": "Hydroponics_5ae",
+      "schema": {
+        "@id": "urn:matthijsvdveer:Hydroponics_5ae:1",
+        "@type": "Interface",
+        "displayName": {
+          "en": "Interface"
+        },
+        "contents": [
+          {
+            "@id": "urn:matthijsvdveer:Hydroponics_5ae:waterTemp:1",
+            "@type": [
+              "Telemetry",
+              "SemanticType/Temperature"
+            ],
+            "displayName": {
+              "en": "Water Temperature"
+            },
+            "name": "waterTemp",
+            "schema": "float",
+            "unit": "Units/Temperature/celsius"
+          },
+          {
+            "@id": "urn:matthijsvdveer:Hydroponics_5ae:ambientTemp:1",
+            "@type": [
+              "Telemetry",
+              "SemanticType/Temperature"
+            ],
+            "displayName": {
+              "en": "Ambient Temperature"
+            },
+            "name": "ambientTemp",
+            "schema": "float",
+            "unit": "Units/Temperature/celsius"
+          },
+          {
+            "@id": "urn:matthijsvdveer:Hydroponics_5ae:ambientHum:1",
+            "@type": [
+              "Telemetry",
+              "SemanticType/Humidity"
+            ],
+            "displayName": {
+              "en": "Ambient Humidity"
+            },
+            "name": "ambientHum",
+            "schema": "double",
+            "unit": "Units/Humidity/percent"
+          }
+        ]
+      }
+    }
+  ],
+  "displayName": {
+    "en": "Hydroponics"
+  },
+  "@context": [
+    "http://azureiot.com/v1/contexts/IoTModel.json"
+  ]
+}
