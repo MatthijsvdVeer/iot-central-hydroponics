@@ -5,6 +5,7 @@ Parts needed:
 - ESP32
 - DHT22 sensor (air temperature and humidity)
 - DS18B20 sensor (water temperature)
+- 1 10K Ohm and 1 5K Ohm resistor
 
 The DHT22 sensor is connected to GPIO 4, the DS18B20 sensor is connected to GPIO 5.
 
